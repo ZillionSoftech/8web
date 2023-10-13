@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            background-color: orange;
+            height: 30vh;
+            width: 30vw;
+            font-size: 2em;
+            display: flex;            
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            font-size: 2em;
+            margin-top: 20px;            
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <button id="btn">Click To Generate Text</button>
+    <button id="clearBtn">छू मंतर</button>
+    <script>
+       const btnElement=document.getElementById('btn');
+
+       btnElement.addEventListener('click',()=>{
+        document.getElementById('box').innerText="Welcome to Zillionsoftech";
+       });
+
+
+       const btnClearn=document.getElementById('clearBtn');
+
+       btnClearn.addEventListener('click',()=>{
+        document.getElementById('box').innerText="";
+       });
+
+
+    </script>
+</body>
+</html>

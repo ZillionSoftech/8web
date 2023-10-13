@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="box"></h1>
+    <button id="mybtn">Click To Generate Text</button>
+    <script>
+        const btnElement=document.getElementById('mybtn');
+        console.log(btnElement);
+
+        // btnElement.addEventListener(eventName, task);
+        btnElement.addEventListener('click',()=>{
+            const h1Element=document.getElementById('box');
+            h1Element.innerText="zillionsoftech";
+        });
+        
+    </script>
+</body>
+</html>
