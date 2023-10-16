@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dynamicContent"></div>
+
+    <button id="btnGenerate">Create New Element</button>
+
+    <script>
+        let btnElement=document.getElementById('btnGenerate');
+        btnElement.addEventListener('click',()=>{
+            let dynamicElement=document.getElementById('dynamicContent');
+            dynamicElement.innerHTML="<h1>Welcome to zillionsoftech</h1>";
+        });
+
+
+        
+
+
+
+
+    </script>
+</body>
+</html>
