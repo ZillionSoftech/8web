@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            animation: hello 1s linear both;
+            height: 300px;
+            width: 300px;
+            background-color: red;
+        }
+
+        @keyframes hello {
+            0% {
+                transform: scale(1) rotateZ(0);
+            }
+
+            50% {
+                transform: scale(2) rotateZ(180deg);
+            }
+
+            100% {
+                transform: scale(1) rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box"></div>
+</body>
+
+</html>
+
+
+<!-- https://animista.net/play/basic/flip-2 -->
