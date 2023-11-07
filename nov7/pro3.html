@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let firstNum=parseInt(prompt("Enter first number : "));
+        let secondNum=parseInt(prompt("Enter second number : "));
+        let optr=prompt("Enter opertor symbol ");
+        let result=0;
+
+        switch(optr){
+            case '+':
+                result=firstNum+secondNum;
+                console.log("Addition of two number : "+result);
+                break;
+            case '-':
+                result=firstNum-secondNum;
+                console.log("Subtraction of two number : "+result);
+                break;
+            case '*':
+                result=firstNum*secondNum;
+                console.log("Multiplication of two number : "+result);
+                break;
+            case "/":
+                result=firstNum/secondNum;
+                console.log("Division of two number : "+result);
+                break;
+            default:
+                console.log("You Entered Wrong Symbol");
+        }
+    </script>
+</body>
+</html>

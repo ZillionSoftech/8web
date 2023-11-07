@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            height: 100vh;
+            width: 100vw;
+            background-color: orange;
+            background-image: url(SM1067326.jpg);
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .subbox {
+            height: 600px;
+            width: 1000px;
+            background-color: rgba(255, 255, 0, 0.408);
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .boxcontent {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .boxcontent input {
+            font-size: 30px;
+        }
+
+        .boxcontent button {
+            font-size: 30px;
+        }
+
+        .boxcontent div {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="subbox">
+            <div class="boxcontent">
+                <div>First Number : <input type="text" name="" id="firstNum"></div>
+                <div>Second Number : <input type="text" name="" id="secondNum"></div>
+                <div>Operator : <input type="text" name="" id="optr"></div>
+                <div><button id="btn-calc">Calculate</button></div>
+                <div>Result : <input type="text" name="" id="result"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+
+        document.getElementById('btn-calc').addEventListener('click', () => {
+            let firstNum = parseInt(document.getElementById('firstNum').value);
+            let secondNum = parseInt(document.getElementById('secondNum').value);
+            let optr = document.getElementById('optr').value;
+            alert(optr);
+
+            let result = 0;
+
+            switch (optr) {
+                case '+':
+                    result = firstNum + secondNum;
+                    console.log("Addition of two number : " + result);
+                    break;
+                case '-':
+                    result = firstNum - secondNum;
+                    console.log("Subtraction of two number : " + result);
+                    break;
+                case '*':
+                    result = firstNum * secondNum;
+                    console.log("Multiplication of two number : " + result);
+                    break;
+                case "/":
+                    result = firstNum / secondNum;
+                    console.log("Division of two number : " + result);
+                    break;
+                default:
+                    result="Wrong";
+                    console.log("You Entered Wrong Symbol");
+            }
+
+            document.getElementById('result').value = result;
+        });
+
+
+
+    </script>
+</body>
+
+</html>
