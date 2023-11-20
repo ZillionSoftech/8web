@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let countFirst=6;
+        let countSecond=0;
+        for(let i=1;i<=9;i++){
+            
+            if(i<=5){
+                countFirst--;
+            }else{
+                countFirst++;
+            }
+
+            if(i<=5){
+                countSecond++;
+            }else{
+                countSecond--;
+            }
+            
+
+            for(let j=1;j<=countFirst;j++){
+                document.write("&nbsp;&nbsp;");
+            }
+
+            for(let j=1;j<=countSecond;j++){
+                document.write("*");
+            }            
+            document.write("<br>");
+        }
+
+    </script>
+</body>
+</html>
