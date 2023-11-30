@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let marks = [100, 89, 75, 78, 60, 50, 200, 47];
+
+        // 100,89,75,78,60,50,200,47
+        // 89 100 75,78,60,50,200,47
+        // 89 75 100 78,60,50,200,47
+        // 89 75 78 100 60,50,200,47
+        // 89 75 78 60 100 50,200,47
+        // 89 75 78 60 50 100 200,47
+        // 89 75 78 60 50 100 200,47
+        // 89 75 78 60 50 100 47 200
+
+
+        for (let j = 1; j < marks.length; j++) {
+            for (let i = 0; i < marks.length - j; i++) {
+                if (marks[i] > marks[i + 1]) {
+                    let temp = marks[i];
+                    marks[i] = marks[i + 1];
+                    marks[i + 1] = temp;
+                }
+            }
+        }
+        for (const iterator of marks) {
+            console.log(iterator);
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
