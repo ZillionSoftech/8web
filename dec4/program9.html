@@ -1,0 +1,44 @@
+<!-- Write a program to count the letters, spaces, numbers and other characters of an input string -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let userString = prompt("Enter a String ");
+        let smallLetters=0;
+        let capitalLetters=0;
+        let numbers=0;
+        let spaces=0;
+        let otherChars=0;
+
+        for (let i = 0; i < userString.length; i++) {
+            let asciiValue = userString.codePointAt(i);
+
+            if (asciiValue >= 97 && asciiValue <= 122) {
+                smallLetters++;    
+            } else if(asciiValue >= 65 && asciiValue <= 90){
+                capitalLetters++;
+            } else if(asciiValue>= 48 && asciiValue<=57){
+                numbers++;
+            } else if(asciiValue==32){
+                spaces++;
+            } else {
+                otherChars++;
+            }
+        }
+
+        document.write("Small Letters => "+smallLetters+"<br>");
+        document.write("Capital Letters => "+capitalLetters+"<br>");
+        document.write("Numbers => "+numbers+"<br>");
+        document.write("Spaces => "+spaces+"<br>");
+        document.write("Other Characters => "+otherChars+"<br>");
+    </script>
+</body>
+
+</html>

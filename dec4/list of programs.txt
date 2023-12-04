@@ -4,8 +4,6 @@ Write a program that takes two numbers and display the product of two numbers
 Write a program to print the sum, multiply, subtract, divide and remainder of two numbers
 Write a program that takes five numbers as input to calculate and print the average of the numbers
 Write a program to swap two variables without using third variable
-Write a program to convert a decimal number to binary numbers
-Write a program to convert a binary number to decimal number
 Write a program and compute the sum of the digits of an integer
 Write a program to compare two numbers
 Write a program to count the letters, spaces, numbers and other characters of an input string
