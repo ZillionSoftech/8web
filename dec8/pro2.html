@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let evenNum=0;
+        let oddNum=0;
+        let marks=[98,68,95,75,84,68,45,81,64,89,2];
+        for(let i=0; i<marks.length; i++){
+            if(parseInt(marks[i]%2)==0){
+                evenNum++;
+            }else{
+                oddNum++;
+            }
+        }
+        document.write("Even Numbers are => "+evenNum);
+        document.write("<br>Odd Numbers are => "+oddNum);
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Write a program to swap the first and last elements of an array and create a new array
+        let techList=["html", "css", "javascript", "jquery", "ajax","java","php"];
+
+        let size=techList.length;
+
+
+        let temp=techList[0];
+        techList[0]=techList[size-1];
+        techList[size-1]=temp;
+
+        for(let i=0;i<size;i++){
+            document.write(techList[i]+"<br>");
+        }
+        
+    </script>
+</body>
+</html>

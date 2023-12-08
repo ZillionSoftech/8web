@@ -17,9 +17,9 @@ Write a program to convert seconds to hour, minute and seconds
 Write a program to compute the sum of the first 100 prime numbers
 Write a program to swap the first and last elements of an array and create a new array
 Write a program to count the number of even and odd elements in a given array
-Write a program to compute the square root of an given integer
 Write a program to check if a positive number is a palindrome or not
 Write a program to add two numbers without using any arithmetic operators
+Write a program to compute the square root of an given integer
 Write a program to add all the digits of a given positive integer
 List of Simple Formula Based  Programs for Practice
  program to find area of circle
