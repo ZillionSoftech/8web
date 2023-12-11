@@ -1,0 +1,156 @@
+Write a program to print ‘Hello World!’ on screen
+Write a program to print the sum of two numbers
+Write a program that takes two numbers and display the product of two numbers
+Write a program to print the sum, multiply, subtract, divide and remainder of two numbers
+Write a program that takes five numbers as input to calculate and print the average of the numbers
+Write a program to swap two variables without using third variable
+Write a program and compute the sum of the digits of an integer
+Write a program to compare two numbers
+Write a program to print the ascii value of a given character
+Write a program to count the letters, spaces, numbers and other characters of an input string
+Write a program that accepts an integer (n) and computes the value of n+nn+nnn
+Write a program to display the system time
+Write a program to print the odd numbers from 1 to 20
+Write a program to print the even numbers from 1 to 20
+Write a program to convert a string to an integer
+Write a program to convert seconds to hour, minute and seconds
+Write a program to compute the sum of the first 100 prime numbers
+Write a program to swap the first and last elements of an array and create a new array
+Write a program to count the number of even and odd elements in a given array
+Write a program to check if a positive number is a palindrome or not
+Write a program to add two numbers without using any arithmetic operators
+>>>>>>
+Write a program to compute the square root of an given integer
+Write a program to add all the digits of a given positive integer
+List of Simple Formula Based  Programs for Practice
+ program to find area of circle
+ Program to find area of rectangle
+ Program to find area of triangle
+ Program to find area of equilateral triangle
+ Program to find area of rhombus
+ Program to find area of parallelogram
+ Program to find area of Prism
+ Program to find volume of sphere
+ Program to find volume of cylinder
+ Program to find volume of cuboid
+ Program to find volume of cone
+ program to find surface area of cuboid
+ program to find surface area of cylinder
+ program to find surface area of cube
+ program to calculate average marks
+ program to check vowel or consonant
+ program to sum of N numbers
+ program to find factorial of any number
+ Program to calculate electricity bill
+ Program To Calculate CGPA Percentage
+ Program to calculate compound interest
+ Program To Calculate Batting Average
+ Pogram to Calculate Commission Percentage
+ Pogram To Find Distance Between Two Points
+ Program To Calculate Power Of Number
+List of all conditional programs in  programming language
+Write a program to take three numbers from the user and print the greatest number
+Write a program to find the number of days in a month
+Write a program to test a number is positive or negative
+Write a Program to accept number of week’s day (1-7) and print name of the day
+Write a program that takes a year from user and print whether that year is a leap year or not
+Write a program to input 5 numbers from keyboard and find their sum and average
+Write a program in  to display the first 5 natural numbers
+Write a program to check vowel or consonant
+Write a program to display the cube of the number upto given an integer
+Write a program to display the n terms of odd natural number and their sum
+Write a program to display the multiplication table of a given integer
+Write a program that reads an integer and check whether it is negative, zero, or positive
+Write a program that reads an positive integer and count the number of digits
+Write a program that accepts three numbers and check All numbers are equal or not
+Write a program that accepts three numbers from the user and check if numbers are in “increasing” or “decreasing” order.
+Write a program that determines a student’s grade
+Write a program to create a simple calculator
+List of all string programs in  Program examples 
+Write a program to concatenate two string
+Write a program to convert all characters in a string to lowercase
+Write a program to convert all characters in a string to uppercase
+Write a program to trim a string(remove whitespaces)
+Write a program to get a substring of a given string between two specified positions
+Write a program to replace all the ‘d’ characters with ‘f’ characters
+Write a program to get the length of a given string
+Write a program to print current date and time in the specified format
+Write a program to get the character at the given index within the String
+Write a program to remove a particular character from a string
+Write a program to reverse a String
+Write a program to remove html tags from a string
+Write a program to count total number of lines from a string
+List of Array Programs in  Program examples
+Write a program to sum values of an array
+Write a program to find the index of an array element
+Write a program to calculate the average value of array elements
+Write a program to test if an array contains a specific value
+Write a program to find the maximum and minimum value of an array
+Write a program to insert an element (specific position) into an array
+Write a program to reverse an array of integer values
+Write a program to find the common elements between two arrays
+Write a program to find the duplicate values of an array of integer values
+Write a program to convert an array to ArrayList
+Write a program to add two matrices of the same size
+Write a program to find second largest number from the array
+Write a program to find second lowest number from the array
+Write a program to find the number of even and odd integers in a given array of integers
+Write a program to get the difference between the largest and smallest values in an array of integers
+Write a program to segregate all 0s on left side and all 1s on right side of a given array of 0s and 1s
+Write a program to cyclically rotate a given array clockwise by one
+ program to print all unique element in an array
+Write a Program to Sort the Array in an Ascending Order
+Write a Program to Sort the Array in an Descending Order
+Write a Program to Sort Names in an Alphabetical Order
+Write a Program to Display Transpose Matrix
+Write a Program to Search Key Elements in an Array
+Write a Program to Accept the Marks of a Student and find Total Marks and Percentage
+List of Loop programs in  Program examples
+Write a program to print numbers from 1 to 10 using loop
+Write a program to calculate the sum of first 10 natural number using loop
+Write a program to print multiplication table of given number
+Write a program to find the factorial value of any number entered through the keyboard
+Write a program that prompts the user to input an integer and then outputs the number with the digits reversed order
+Write a program that reads a set of integers, and then prints the sum of the even and odd integers using loop
+Write a program to check whether the number is a prime number or not
+Write a program to calculate HCF of Two given numbers using loop
+Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros
+Write a program to enter the numbers till the user wants and at the end the program should display the largest and smallest numbers entered
+Write a program to print out all Armstrong numbers between 1 to 600 using loop
+Write a program to count total number of notes in entered amount using loop
+Write a program to print Fibonacci series of n terms where n is input by user using loop
+Write a program to calculate the sum of following series where n is input by user
+List of Method/Function programming exercises in 
+Write a method to compute the average of three numbers
+Write a method to find the smallest number among three numbers
+Write a method to count all words in a string
+Write a method to count all vowels in a string
+Write a method to compute the sum of the digits in an integer
+Write a method to check whether an year entered by the user is a leap year or not
+Write a method to calculate the area of a triangle
+Write a method to find the area of a pentagon
+Write a method to find number is even number or not
+Write a method to check numbers is palindrome number or not
+Write a method to displays prime numbers between 1 to 20
+Write a method to find GCD and LCM of Two Numbers
+Write a method to find factorial using recursion in 
+All Collection programs in  Program examples
+Write a program to create a new array list, add some elements (string) and print out the collection
+Write a program to insert an element into the array list at the first position
+Write a program to remove the third element from a array list
+Write a program to sort a given array list
+Write a program to shuffle elements in a array list
+Write a program to increase the size of an array list
+Write a program to reverse elements in a array list
+Write a program to compare two array lists
+Write a program to swap two elements in an array list
+Write a program to join two array lists
+Write a program to empty an array list
+List of Math Exercises Programs in  With an Examples
+Write a program to reverse an integer number
+Write a program to round a float number to specified decimals
+Write a program to test if a double number is an integer
+Write a program to round up the result of integer division
+Write a program to convert Roman number to an integer number
+Write a program to convert a float value to absolute value
+Write a program to accept a float value of number and return a rounded float value
