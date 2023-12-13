@@ -19,8 +19,7 @@ Write a program to swap the first and last elements of an array and create a new
 Write a program to count the number of even and odd elements in a given array
 Write a program to check if a positive number is a palindrome or not
 Write a program to add two numbers without using any arithmetic operators
->>>>>>
-Write a program to compute the square root of an given integer
+=====Write a program to compute the square root of an given integer
 Write a program to add all the digits of a given positive integer
 List of Simple Formula Based  Programs for Practice
  program to find area of circle
@@ -50,10 +49,10 @@ List of Simple Formula Based  Programs for Practice
  Program To Calculate Power Of Number
 List of all conditional programs in  programming language
 Write a program to take three numbers from the user and print the greatest number
+Write a program that takes a year from user and print whether that year is a leap year or not
 Write a program to find the number of days in a month
 Write a program to test a number is positive or negative
 Write a Program to accept number of week’s day (1-7) and print name of the day
-Write a program that takes a year from user and print whether that year is a leap year or not
 Write a program to input 5 numbers from keyboard and find their sum and average
 Write a program in  to display the first 5 natural numbers
 Write a program to check vowel or consonant
@@ -63,6 +62,7 @@ Write a program to display the multiplication table of a given integer
 Write a program that reads an integer and check whether it is negative, zero, or positive
 Write a program that reads an positive integer and count the number of digits
 Write a program that accepts three numbers and check All numbers are equal or not
+>>>>>>
 Write a program that accepts three numbers from the user and check if numbers are in “increasing” or “decreasing” order.
 Write a program that determines a student’s grade
 Write a program to create a simple calculator

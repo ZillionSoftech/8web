@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // A really plain string that is just code points below 128.
+        const mystr = 'hello';
+
+        // This will work. It will print:
+        // Encoded string: [aGVsbG8=]
+        let mystrEncoded = btoa(mystr);
+
+        mystrEncoded="hi"+mystrEncoded+"hi";
+
+
+        const newEncoded=btoa(mystrEncoded);
+        document.write(newEncoded);
+        
+
+
+        
+        
+        
+        // console.log(`Encoded string: [${asciiStringEncoded}]`);
+
+        // // This will work. It will print:
+        // // Decoded string: [hello]
+        // const asciiStringDecoded = atob(asciiStringEncoded);
+        // console.log(`Decoded string: [${asciiStringDecoded}]`);
+    </script>
+</body>
+
+</html>
