@@ -1,0 +1,5 @@
+win + r => run box
+win + d=> desktop
+win + e => this pc
+alt + tab => switch between windows
+ctrl + shift + n => new folder

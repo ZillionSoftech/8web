@@ -1,0 +1,22 @@
+got to github 
+create new repo
+copy repo link using code button 
+copy https url
+
+open file explorer
+right click => open git bash here
+
+git clone paste copied url
+colse current git window
+open cloned folder
+right click and open git bash here
+git status
+it should be in main branch
+
+create a new file
+git status
+git add .
+git commit -m "msg"
+[config your details]
+git pull origin main
+git push origin main
