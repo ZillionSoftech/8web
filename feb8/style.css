@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    height: auto;
+    background-color: rgb(195, 195, 195);
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 100px;
+    padding: 10px;
+    display: inline-block;
+}
+.logo img{
+    width: 100%;
+}
+.search-box{
+    display: inline-block;
+}
+.nav {
+    border-bottom: 2px solid #fff;
+}
+.mainmenu{
+    list-style-type: none;  
+    background-color: #000;  
+    /* background-color: yellow;   */
+    padding: 10px;
+}
+.mainmenu li{
+    display: inline-block;
+}
+.mainmenu a{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+.mainmenu a:hover{
+    background-color: #565454;
+    border-bottom: 4px solid red;
+}
+.banner{
+    width: 100;
+}
+.banner .banner1{    
+    background-image: url(img/360_F_271297554_0DAlzyFb8jzYg0lfmUOzyhtMer0orz4h.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+}
+/* .banner img{
+    width: 100%;
+} */
+
+.bodycontainer{
+    width: 100%;
+    height: auto;
+}
+.bodycontainer .side-left{
+    width: 30%;    
+    height: auto;    
+    background-color: green;
+    float: left;
+}
+.side-left .list-link{
+    list-style-type: none;
+}
+.opinion h2{
+    border-bottom: 3px dotted black;
+}
+.list-link li{
+    border-bottom: 2px dotted #fff;
+    padding: 10px;
+}
+.list-link a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-link .speaker-link{
+    display: block;
+    font-size: 20px;
+    
+}
+.speaker-link a{
+    color: #020202;
+}
+.bodycontainer .side-right{
+    width: 70%;
+    height: auto;    
+    /* background-color: red; */
+    float: right;
+}
+
+.side-right .body-left{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.side-right .body-right{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+.body-right .body-list-news{
+    list-style: none;    
+}
+.body-list-news li{
+    padding: 10px;
+    border-bottom: 2px dotted black;
+}
+.body-list-news a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
