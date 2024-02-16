@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main-menu{
+            list-style: none;
+            margin-top: 100px;
+            position: relative;
+        }
+        .sub-menu{
+            list-style: none;
+            display: none;
+        }
+        .main-menu li{
+            background-color: red;
+            display: inline-block;            
+            padding: 20px;
+        }
+        .main-menu a{
+            /* padding: 20px; */
+            color: #fff;
+            text-decoration: none;
+            font-size: 30px;
+            /* background-color: green; */
+        }
+        /* .main-menu a:hover{
+            background-color: rgb(40, 200, 40);
+        } */
+
+        .main-menu li:hover .sub-menu{
+            display: block;
+            position: absolute;
+        }
+        .sub-menu{
+            /* margin-top: 15px; */
+            top: 72px;
+            left: 237px;
+            
+        }
+        .sub-menu li{
+            display: block;
+            background-color: black;
+            color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="main-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Course</a>
+            <ul class="sub-menu">
+                <li><a href="">Web Designing</a></li>
+                <li><a href="">Web Development</a></li>
+                <li><a href="">Digital Marketing</a></li>
+                <li><a href="">Data Analytics</a></li>
+            </ul>
+        </li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Legal</a></li>
+    </ul>
+</body>
+</html>
