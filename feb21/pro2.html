@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .scale-down-center{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+        }
+        .scale-down-center{
+            animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        @keyframes scale-down-center {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(0.5);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scale-down-center"></div>
+</body>
+
+</html>
