@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            background-image: url(photo-1497366754035-f200968a6e72.avif);
+            height: 100vh;
+            width: 100vw;
+            background-size: contain;
+            position: absolute;
+        }
+
+        .box {
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(0, 0, 0, 0.591);
+            /* background-color: black; */
+            /* opacity: 0.5; */
+            position: absolute;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 100px;
+        }
+
+        .tracking-in-expand-fwd-top {
+            -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        }
+
+        @keyframes tracking-in-expand-fwd-top {
+            0% {
+                letter-spacing: -0.5em;
+                -webkit-transform: translateZ(-700px) translateY(-500px);
+                transform: translateZ(-700px) translateY(-500px);
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.6;
+            }
+
+            100% {
+                -webkit-transform: translateZ(0) translateY(0);
+                transform: translateZ(0) translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main"></div>
+    <div class="box">
+        <h1 class="tracking-in-expand-fwd-top">Zillionsoftech</h1>
+    </div>
+</body>
+
+</html>
