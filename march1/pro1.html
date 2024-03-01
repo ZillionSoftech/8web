@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let rew=parseInt(prompt("Enter score of Rewari team : ")); //180
+        let rohtak=parseInt(prompt("Enter score of Rohtak team : ")); //190
+        let gurugram=parseInt(prompt("Enter score of Gurugram team : "));
+
+        if(rew>rohtak){
+            if(rew>gurugram){
+                document.write("Rewari Is Winner : "+rew);
+            }else{
+                document.write("Gurugram Is Winner : "+gurugram);
+            }
+        }else{
+            if(rohtak>gurugram){
+                document.write("Rohtak Is Winner : "+rohtak);
+            }else{
+                document.write("Gurugram Is Winner : "+gurugram);
+            }
+        }
+
+    </script>
+</body>
+</html>

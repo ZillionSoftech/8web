@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let rew=parseInt(prompt("Enter score of Rewari team : ")); //180
+        let rohtak=parseInt(prompt("Enter score of Rohtak team : ")); //190
+        let gurugram=parseInt(prompt("Enter score of Gurugram team : "));
+        let delhi=parseInt(prompt("Enter score of Delhi team : "));
+
+        if(rew>rohtak){
+            if(rew>gurugram){
+                if(rew>delhi){
+                    document.write("Rewari Is Winner : "+rew);
+                }else{
+                    document.write("Delhi Is Winner : "+delhi);
+                }
+            }else{
+                if(gurugram>delhi){
+                    document.write("Gurugram Is Winner : "+gurugram);
+                }else{
+                    document.write("Delhi Is Winner : "+delhi);
+                }
+            }
+        }else{
+            if(rohtak>gurugram){
+                if(rohtak>delhi){
+                    document.write("Rohtak Is Winner : "+rohtak);
+                }else{
+                    document.write("Delhi Is Winner : "+delhi);
+                }
+            }else{
+                if(gurugram>delhi){
+                    document.write("Gurugram Is Winner : "+gurugram);
+                }else{
+                    document.write("Delhi Is Winner : "+delhi);
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>
