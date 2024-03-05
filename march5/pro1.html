@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // age<18, smoke=false =>2500
+        // age<18, smake=true =>3500
+        // age>=18, smoke=false=>4500
+        // age>=18, smkoe=true =>6000
+
+        let age=parseInt(prompt("Enter your age : "));
+        let smokestatus=confirm("Do you smoke ? ");
+
+        if(age<18 && !smokestatus){
+            document.write("Your Annual Premium Amount : 2500");
+        }else if(age<18 && smokestatus==true){
+            document.write("Your Annual Premium Amount : 3500");
+        }else if(age>=18 && !smokestatus){
+            document.write("Your Annual Premium Amount : 4500");
+        }else if(age>=18 && smokestatus){
+            document.write("Your Annual Premium Amount : 6000");
+        }
+
+        // true && true => true
+        // true && false => false
+        // false && true => false
+        // false && false => false
+
+    </script>
+</body>
+</html>
