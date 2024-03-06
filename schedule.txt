@@ -1,0 +1,8 @@
+//loop
+        // use of id
+        // function
+        // types of function in js        
+        // addEventListener
+        // FileReader
+        // onload
+        // readAsDataURL
