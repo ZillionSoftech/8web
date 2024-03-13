@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let noOfElement=parseInt(prompt("Enter No of element you want to add  : "));
+        
+        let elementList=[];
+        for(let i=0;i<noOfElement;i++){
+            let temp=parseInt(prompt("Enter Element at index : "+i));
+            elementList.push(temp);
+        }
+
+        document.write("==================");
+        for(let i=0;i<elementList.length;i++){
+            document.write(elementList[i]+"<br>");
+        }
+        
+    </script>
+</body>
+</html>
