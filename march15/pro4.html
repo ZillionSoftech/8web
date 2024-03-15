@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+        <img src="300-SM1003739.jpg" alt="">
+    </div>
+    <button onclick="hide()">Hide</button>
+    <button onclick="show()">Show</button>
+    
+    <script>
+        function hide(){
+            let boxElement=document.getElementById('box');
+            boxElement.innerHTML="";
+        }
+        function show(){
+            let boxElement=document.getElementById('box');
+            boxElement.innerHTML='<img src="300-SM1003739.jpg" alt="">';
+        }
+    </script>
+</body>
+
+</html>

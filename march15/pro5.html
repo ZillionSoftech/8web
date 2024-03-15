@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box img{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">       
+        <img src="300-SM1084623-white.jpg" alt="">        
+    </div>
+    <button onclick="white()">White Background</button>
+    <button onclick="red()">Red Background</button>
+    <button onclick="green()">Green Background</button>
+    <input type="color" name="" id="">
+    
+    <script>
+        function white(){
+            let boxElement=document.getElementById('box');
+            boxElement.innerHTML='<img src="300-SM1084623-white.jpg" alt="">';
+        }
+        function red(){
+            let boxElement=document.getElementById('box');
+            boxElement.innerHTML='<img src="300-SM1084623-red.jpg" alt="">';
+        }
+        function green(){
+            let boxElement=document.getElementById('box');
+            boxElement.innerHTML='<img src="300-SM1084623-green.jpg" alt="">';
+        }
+        
+    </script>
+</body>
+
+</html>
