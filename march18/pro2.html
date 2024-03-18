@@ -1,0 +1,32 @@
+<!-- 1
+121
+12321
+1234321 -->
+
+<!-- 1
+2
+3
+4
+3
+2
+1 -->
+
+<script>
+
+    for (let j = 1; j <= 7; j++) {
+        if (j % 2 != 0) {
+            let count = 0;
+            for (let i = 1; i <= j; i++) {
+                if (i > (j / 2) + 1) {
+                    count--;
+                } else {
+                    count++;
+                }
+                document.write(count);
+            }
+            document.write("<br>");
+        }
+    }
+
+
+</script>
