@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 5
+        // 4
+        // 3
+        // 2
+        // 1
+        // 2
+        // 3
+        // 4
+        // 5
+
+        let count=6;
+        let reverse=0;
+        for (let i = 1; i <= 9; i++) {
+            if(i<=5){
+                count--;
+                reverse++;
+            }else{
+                count++;
+                reverse--;    
+            }
+            for(let j=1;j<=count;j++){
+                document.write("&nbsp;&nbsp;");                
+            }
+            for(let k=1;k<=reverse;k++){
+                document.write("*");
+            }
+
+            document.write("<br>");                
+        }
+
+
+    </script>
+</body>
+
+</html>
